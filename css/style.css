@@ -9,6 +9,7 @@ body{
     margin: 0;
     padding: 0;
     overflow: hidden;
+    position: static;
 }
 .navbar {
   box-shadow: none !important;
@@ -78,9 +79,6 @@ body{
   width: 50%;
   margin-bottom: 2em;
 }
-/* #profile{
-    padding-top: 4.5em;
-} */
 footer hr{
   border: 0.5px solid grey;
 }
@@ -90,7 +88,6 @@ footer hr{
 #fullpage section:nth-child(1){
     background-color: white;
 }
-
 #fullpage section:nth-child(2){
   background-color:#1f1d1d;
 }
@@ -458,12 +455,6 @@ background-color: #ffc400;
   visibility: hidden;
 }
 .top-right .videoprofil{
-  padding-top: 2em;
-  visibility: hidden;
-}
-.top-right iframe{
-  margin-top:-13%;
-  padding-bottom: -5%;
   visibility: hidden;
 }
 .top-right .embed-responsive-1by1{
